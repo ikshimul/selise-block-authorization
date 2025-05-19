@@ -2,9 +2,9 @@
     "name": "inzamam/selise-block-authorization",
     "description": "selise blocks authorization system for Laravel, including token management and secure authentication logic.",
     "keywords": [
-        ":selise_block_authorization",
+        "selise_block_authorization",
         "laravel",
-        ":selise-block-authorization"
+        "selise-block-authorization"
     ],
     "homepage": "https://github.com/ikshimul/selise-block-authorization",
     "license": "MIT",
