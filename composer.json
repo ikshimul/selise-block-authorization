@@ -1,0 +1,31 @@
+{
+    "name": "inzamam/selise-block-authorization",
+    "description": "selise blocks authorization system for Laravel, including token management and secure authentication logic.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inzamam\\SeliseBlockAuthorization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "inzamam-karim",
+            "email": "inzamamul.karim@selisegroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inzamam\\SeliseBlockAuthorization\\BlockAuthorizationServiceProvider"
+            ],
+            "aliases": {
+                "BlockAuthorization": "Inzamam\\SeliseBlockAuthorization\\BlockAuthorization"
+            }
+        }
+    }
+}
