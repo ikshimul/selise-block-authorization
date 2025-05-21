@@ -52,10 +52,10 @@ php artisan migrate
 Use the facade or bound service to retrieve and store access tokens:
 
 ```php
-    use SeliseBlockAuthService;
+use SeliseBlockAuthService;
 
-    $token = SeliseBlockAuthService::getAccessToken();
-    echo $token;
+$token = SeliseBlockAuthService::getAccessToken();
+echo $token;
 ```
 
 ## 🧑‍💻 Author
